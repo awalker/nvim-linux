@@ -3,7 +3,7 @@
 -- Add any additional options here
 
 -- only set this on windows...
-vim.cmd('set clipboard = "unnamedplus"')
+-- vim.cmd('set clipboard = "unnamedplus"')
 
 vim.opt.swapfile = false
 vim.opt.backup = false
