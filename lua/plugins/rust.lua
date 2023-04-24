@@ -18,7 +18,6 @@ return {
       }))
     end,
   },
-
   -- add rust to treesitter
   {
     "nvim-treesitter/nvim-treesitter",
@@ -71,7 +70,7 @@ return {
                 border = "none",
               },
               inlay_hints = {
-                auto = false,
+                auto = true,
                 show_parameter_hints = true,
               },
             },
